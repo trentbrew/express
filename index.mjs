@@ -32,8 +32,6 @@ function logResponse(response) {
   return filePath
 }
 
-// ------------ base ------------
-
 app.get('/', (req, res) => {
   res.send(`
     <!DOCTYPE html>
